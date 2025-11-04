@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const userInput = document.getElementById('user-input');
     const sendBtn = document.getElementById('send-btn');
     
-    const chatApiUrl = 'https://fithub-production-26e2.up.railway.app/chat'; 
+    const chatApiUrl = 'fit-bot-backend-zeta.vercel.app'; 
     
     let onboardingState = 'IDLE';
     
@@ -357,5 +357,6 @@ document.addEventListener('DOMContentLoaded', () => {
             setTimeout(() => advanceOnboarding(value), 200); 
         }
     });
+
 
 });
