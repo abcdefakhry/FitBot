@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const userInput = document.getElementById('user-input');
     const sendBtn = document.getElementById('send-btn');
     
-    const chatApiUrl = 'https://fit-bot-backend-wheat.vercel.app/'; 
+    const chatApiUrl = 'https://fit-bot-backend-wheat.vercel.app/chat'; 
     
     let onboardingState = 'IDLE';
     
@@ -360,5 +360,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
 });
+
 
 
